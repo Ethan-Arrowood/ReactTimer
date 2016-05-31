@@ -41,7 +41,7 @@ var Timer = React.createClass({
     var {count, timerStatus} = this.state;
     return (
       <div>
-        <h1 className="page-title">Timer</h1>
+        <h1 className="page-title">Timer App</h1>
         <Clock totalSeconds={count}/>
         <Controls countdownStatus={timerStatus} onStatusChange={this.handleStatusChange}/>
       </div>
